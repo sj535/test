@@ -20,7 +20,7 @@ try:
 
 	saveFileNameParam = sys.argv[1] #Read first param save filename
 	saveFileSizeParam = sys.argv[2] #Read first param for filesize
-	savePath = "../export_img/" # Path to sace=
+	savePath = "export_img/" # Path to sace=
 	saveFile = "_"+saveFileNameParam+".png"
 	titleName = 'Operating Index \nEBIT Margin'
 	color = ['#afdce3','#2e91ad','#91ccd1','#ff7800','#2e91ad'] #color code of line
@@ -106,4 +106,4 @@ try:
 	#plt.show()
 except Exception as e:	
 	print("Something Went wrong! Unable to process your request.")
-#	print(e)
+	#print(e)
